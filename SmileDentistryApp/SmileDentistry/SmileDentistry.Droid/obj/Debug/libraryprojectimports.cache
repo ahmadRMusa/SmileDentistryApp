@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Plugin.Messaging\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.CarouselView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Mobile\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.Messaging\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.CarouselView\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Mobile\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\ImageCircle.Forms.Plugin.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Plugin.Messaging.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.CarouselView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry.Droid\obj\Debug\__library_projects__\Xamarin.Mobile.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

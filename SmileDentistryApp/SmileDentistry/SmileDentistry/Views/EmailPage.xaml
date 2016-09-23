@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SmileDentistry.Views.EmailPage"
+             Title="Smile Dentistry">
+  <OnPlatform x:TypeArguments="View">
+
+    <OnPlatform.iOS>
+      <StackLayout  BackgroundColor="#9AB9EC">
+        <Label x:Name="lblPath_ios" IsVisible="False"></Label>
+        <StackLayout Padding="20,10,10,10" VerticalOptions="CenterAndExpand" HeightRequest="10" HorizontalOptions="Center" Spacing="5">
+          <!--<Image Source="Logo.png" WidthRequest="100" HeightRequest="100"></Image>-->
+        </StackLayout>
+        <StackLayout WidthRequest="300" HorizontalOptions="Center" VerticalOptions="FillAndExpand" HeightRequest="100" >
+          <Entry x:Name="FirstName_IOS" StyleId="FirstNameId" Text="{Binding Path=FirstName}" Placeholder="First Name" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="LastName_IOS" StyleId="LastNameId" Text="{Binding Path=LastName}" Placeholder="Last Name" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Phone_IOS" StyleId="PhoneId" Text="{Binding Path=Phone}" Placeholder="Phone Number" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Email_IOS" StyleId="EmailId" Text="{Binding Path=Email}" Placeholder="Email" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Confirm_IOS" StyleId="ConfirmId" Text="{Binding Path=Confirm}" Placeholder="Confirm Email" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <!--<Entry x:Name="About_IOS" StyleId="AboutId" Text="{Binding Path=About}" Placeholder="About" BackgroundColor="White" FontFamily="Georgia" TextColor="Black" HeightRequest="10"/>-->
+          <Editor x:Name="About_IOS"  Text="{Binding Path=About}" BackgroundColor="White" FontFamily="Georgia" TextColor="Black" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+        <StackLayout WidthRequest="300" VerticalOptions="FillAndExpand" HorizontalOptions="Center" >
+          <Button Text="Submit" Clicked="OnButtonClicked" BackgroundColor="White" TextColor="#9AB9EC" FontFamily="Georgia" FontAttributes="Bold"/>
+        </StackLayout>
+      </StackLayout>
+    </OnPlatform.iOS>
+
+    <OnPlatform.Android>
+      <StackLayout  BackgroundColor="#9AB9EC">
+        <Label x:Name="lblPath" IsVisible="False"></Label>
+        <StackLayout Padding="10,0,0,0" VerticalOptions="CenterAndExpand" HeightRequest="10" HorizontalOptions="Center" >
+          <Label Text="Submit your image to *Dentist Name* after entering all fields" FontSize="14" HorizontalOptions="Start" TextColor="Black" FontFamily="Georgia"/>
+        </StackLayout>
+        <StackLayout WidthRequest="350" HorizontalOptions="Center" VerticalOptions="FillAndExpand"  >
+          <Entry x:Name="FirstName_Droid" Text="{Binding Path=FirstName}" Placeholder="First Name" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="LastName_Droid" Text="{Binding Path=LastName}" Placeholder="Last Name" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Phone_Droid" Text="{Binding Path=Phone}" Placeholder="Phone Number" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Email_Droid" Text="{Binding Path=Email}" Placeholder="Email" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Entry x:Name="Confirm_Droid" Text="{Binding Path=Confirm}" Placeholder="Confirm Email" BackgroundColor="White" FontFamily="Georgia" TextColor="Black"/>
+          <Editor x:Name="About_Droid"  Text="{Binding Path=About}" BackgroundColor="White" FontFamily="Georgia" TextColor="Black" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+        <StackLayout WidthRequest="300" VerticalOptions="FillAndExpand" HorizontalOptions="Center" >
+          <Button Text="Submit" Clicked="OnButtonClicked" BackgroundColor="White" TextColor="#9AB9EC" FontFamily="Georgia" FontAttributes="Bold"/>
+        </StackLayout>
+        <!--<StackLayout Orientation="Horizontal" Padding="5, 5, 5, 10">
+          <Button x:Name="Back" Text="Cancel" Clicked="OnBackButtonClicked" HorizontalOptions="Center"
+                  BackgroundColor="White" WidthRequest="100" TextColor="#9AB9EC" FontFamily="Georgia"></Button>
+          <Button Text="Submit" Clicked="OnButtonClicked" BackgroundColor="White" TextColor="#9AB9EC" FontFamily="Georgia" WidthRequest="130" FontAttributes="Bold"/>
+         
+        </StackLayout>-->
+      </StackLayout>
+    </OnPlatform.Android>
+  </OnPlatform>
+</ContentPage>
