@@ -64,5 +64,3 @@ D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\obj\Debug\SmileDe
 D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\obj\Debug\SmileDentistry.csprojResolveAssemblyReference.cache
 D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\obj\Debug\SmileDentistry.dll.mdb
 D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\bin\Debug\SmileDentistry.dll.mdb
-D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\obj\Debug\SmileDentistry.dll.mdb
-D:\GIT.XAMARIN\SmileDentistryApp\SmileDentistry\SmileDentistry\bin\Debug\SmileDentistry.dll.mdb

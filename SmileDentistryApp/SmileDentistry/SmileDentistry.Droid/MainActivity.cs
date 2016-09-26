@@ -7,6 +7,7 @@ using Xamarin.Media;
 using Android.Content;
 using Android.Content.Res;
 using SmileDentistry.Views;
+using Android.Preferences;
 
 [assembly: Dependency(typeof(SmileDentistry.Droid.MainActivity))]
 namespace SmileDentistry.Droid
@@ -25,6 +26,9 @@ namespace SmileDentistry.Droid
 
             ImageCircle.Forms.Plugin.Droid.ImageCircleRenderer.Init();           
             LoadApplication(new App());
+
+            
+
         }
 
 
